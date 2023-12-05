@@ -2,3 +2,6 @@ AnkiTest.egg-info
 __pycache__
 build
 dist
+setup.py
+setup.spec
+core.spec

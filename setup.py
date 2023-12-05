@@ -27,5 +27,11 @@ setup(
         'console_scripts': [
             'AnkiTest = start.core:main_function',
         ],
-    }
+    },
+        options={
+        'build_exe': {
+            'packages': ['ankidata', 'gui', 'docxsave', 'start'],
+            'include_files': [],
+        },
+    },
 )
