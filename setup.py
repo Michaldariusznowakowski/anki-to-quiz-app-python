@@ -25,7 +25,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'startankitest = start.core:main_function',
+            'StartAnkiTest = start.core:main_function',
         ],
     },
         options={
