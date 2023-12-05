@@ -8,6 +8,7 @@
 2.3. Wrong answered questions are showed in the end.  
 
 # How to use
+Remember to close anki before using this script!
 ## Create a deck using this model:
 https://github.com/Michaldariusznowakowski/ankiTest/raw/main/other_files/Model.apkg
 ## How model works:
@@ -27,8 +28,12 @@ https://github.com/Michaldariusznowakowski/ankiTest/raw/main/other_files/Model.a
 ## 2. Multiple options:
 ### 2.1. Use pip to install:
 ```
-pip install -e git+https://github.com/Michaldariusznowakowski/ankiTest#egg=AnkiTest
-py -m AnkiTest
+pip install -e git+https://github.com/Michaldariusznowakowski/ankiTest#egg=AnkiTest --user
+py -m StartAnkiTest
+or 
+StartAnkiTest.exe
+if this did not works, you need to add Python/Scripts to path
+Or just manualy start it C:\Users\XXXX\AppData\Roaming\Python\PythonXXX\Scripts\StartAnkiTest.exe
 To remove: pip uninstall AnkiTest
 ```
 After install you will see in console path to script. You can use it to run script.
