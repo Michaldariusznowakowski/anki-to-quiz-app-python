@@ -26,7 +26,9 @@ https://github.com/Michaldariusznowakowski/ankiTest/raw/main/other_files/Model.a
 ## 2. Multiple options:
 ### 2.1. Use pip to install:
 ```
-pip install AnkiTest@git+https://github.com/Michaldariusznowakowski/ankiTest
+pip install -e AnkiTest@git+https://github.com/Michaldariusznowakowski/ankiTest
+py -m AnkiTest
+To remove: pip uninstall AnkiTest
 ```
 After install you will see in console path to script. You can use it to run script.
 ### 2.2. Download zip file from github and run commands from console:
