@@ -42,7 +42,7 @@ After install you will see in console path to script. You can use it to run scri
 py -m venv venv
 venv\Scripts\activate.bat
 pip install -r requirements.txt
-py start\main.py
+py start\core.py
 ```
 ### 2.3. Download ready to use exe file from github releases and run it.
 You can find it on the right side of the page.
