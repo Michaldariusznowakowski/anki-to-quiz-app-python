@@ -6,7 +6,7 @@ setup(
     description='Program for making test from anki database',
     author='Michał Nowakowski',
     author_email='michaldariusznowakowski@proton.me',
-    url='https://link.do.repozytorium',
+    url='https://github.com/Michaldariusznowakowski/ankiTest',
     packages=find_packages(
         include=['ankidata', 'ankidata.*', 'gui', 'gui.*', 'docxsave.*', 'doxysave', 'start.*', 'start']),
     install_requires=[
