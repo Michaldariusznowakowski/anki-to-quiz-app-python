@@ -24,7 +24,7 @@ https://github.com/Michaldariusznowakowski/ankiTest/raw/main/other_files/Model.a
 3.4. This model works in android app!
 
 # How to install
-## 1. Install python 3.10
+## 1. Install python 3.12
 ## 2. Multiple options:
 ### 2.1. Use pip to install:
 ```
